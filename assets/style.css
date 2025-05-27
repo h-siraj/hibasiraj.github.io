@@ -1,0 +1,123 @@
+:root {
+  --green: #006400;
+  --gold: #bfa300;
+  --white: #ffffff;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: var(--white);
+  color: #333;
+}
+
+header {
+  text-align: center;
+  padding: 2rem;
+  background-color: var(--green);
+  color: var(--white);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+header p {
+  margin: 0.5rem 0;
+  font-size: 1.2rem;
+  color: var(--gold);
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2rem;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.photo-section {
+  flex: 1 1 250px;
+  display: flex;
+  justify-content: center;
+}
+
+.photo-section img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid var(--gold);
+}
+
+.bio-section {
+  flex: 2 1 600px;
+}
+
+.bio-section h2 {
+  color: var(--green);
+  border-bottom: 2px solid var(--gold);
+  padding-bottom: 0.5rem;
+}
+
+.socials {
+  margin-top: 1rem;
+}
+
+.socials a {
+  color: var(--green);
+  font-size: 1.5rem;
+  margin-right: 1rem;
+  transition: color 0.3s;
+}
+
+.socials a:hover {
+  color: var(--gold);
+}
+
+.section {
+  margin-top: 2rem;
+}
+
+.section h3 {
+  color: var(--green);
+  border-left: 5px solid var(--gold);
+  padding-left: 0.5rem;
+}
+
+.section ul {
+  list-style-type: disc;
+  padding-left: 2rem;
+}
+
+.publication {
+  margin-bottom: 1rem;
+}
+
+.publication-title {
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem;
+  background-color: var(--green);
+  color: var(--white);
+  margin-top: 3rem;
+}
+
+.cv-link {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: var(--gold);
+  color: var(--white);
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.cv-link:hover {
+  background-color: #a98c00;
+}
